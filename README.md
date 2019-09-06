@@ -9,7 +9,7 @@ This dataset contains the following files:
 | | |
 |-|-|
 |Downloadable archive files containing all normalized LMD microarray expression values for each brain and probe and sample metadata|lmd_expression_matrix_2014-03-06.zip (link)|
-|Neuroanatomical guide files for prenatal LMD sample isolation|Neuroanatomical_guides(zipped directory containing JPG files)|
+|Neuroanatomical guide files for prenatal LMD sample isolation|Neuroanatomical_guides(directory containing 144 JPG file links)|
 
 ## Macrodissection Microarray
 
@@ -23,6 +23,6 @@ Links for downloading all the microarray files, and some meta-information: well_
 
 | | |
 |-|-|
-|Supplemental DNA microarray data|Transcriptional_Architecture_of_the_Primate_Neocortex(zipped directory)|
+|Supplemental DNA microarray data|Transcriptional_Architecture_of_the_Primate_Neocortex(directory containign 229 file links)|
 
 
