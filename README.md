@@ -23,6 +23,8 @@ Links for downloading all the microarray files, and some meta-information: well_
 
 | | |
 |-|-|
-|Supplemental DNA microarray data|Transcriptional_Architecture_of_the_Primate_Neocortex(directory containign 229 file links)|
+|Supplemental DNA microarray data|Transcriptional_Architecture_of_the_Primate_Neocortex (directory containing 229 file links)|
+|MRI zip files, containing the DICOM for the three 48 month specimens used for the ISH data generated serially across a complete hemisphere from adult rhesus macaque.|14349_MRI.zip, 14447_MRI.zip, 14868_MRI.zip (3 link files)|
+
 
 
