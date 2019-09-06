@@ -16,8 +16,7 @@ This dataset contains the following files:
 | | |
 |-|-|
 |Downloadable archive files containing all normalized macrodissection microarray expression values for each brain and probe and sample metadata|macro_expression_matrix_2014-03-06.zip (link)|
-
-Links for downloading all the microarray files, and some meta-information: well_data_files.xml
+|Links for downloading all the microarray files, and some meta-information|well_data_files.xml|
 
 ## Supplemental data
 
