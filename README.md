@@ -22,3 +22,5 @@ This dataset contains the following files:
 
 Contents of this file adapted from http://blueprintnhpatlas.org/static/download
 
+
+<a href="https://doi.org/10.5281/zenodo.3405490"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3405490.svg" alt="DOI"></a>
