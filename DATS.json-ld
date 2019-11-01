@@ -1,0 +1,281 @@
+{
+    	"$schema": "https://w3id.org/dats/schema/dataset_schema.json",
+    	"@type": "Dataset",
+	"identifier": {
+                "$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                "@type": "Identifier",
+		"identifier": "https://doi.org/10.5281/zenodo.3405490",
+		"identifierSource": "DOI"
+	},
+	"version": "1.0.0",
+	"privacy": "public open",
+	"licenses": [
+		{
+			"$schema": "https://w3id.org/dats/schema/license_schema.json",
+			"@type": "Licence",
+			"name": "https://alleninstitute.org/legal/terms-use/"
+		}
+	],
+	"creators": [
+		{
+			"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+			"@type": "Organization",
+			"name": "The Allen Institute for Brain Science"
+		}
+	],
+	"types": [
+		{
+			"information": {
+				"value": "transcriptomics"
+			}
+		}
+	],
+	"title": "NIH Blueprint Non-Human Primate Atlas",
+	"description": "The NIH Blueprint Non-Human Primate (NHP) Atlas consists of a suite of gene expression and neuroanatomical data for exploring the cellular and molecular architecture of the developing rhesus macaque brain.",
+	"storedIn": {
+		"name" : "The Allen Institute for Brain Science"
+	},
+	"primaryPublications" : [
+		{
+            		"$schema": "https://w3id.org/dats/schema/publication_schema.json",
+            		"@type": "Publication",
+			"identifier": {
+		                "$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                		"@type": "Identifier",
+				"identifier": "https://dx.doi.org/10.1093%2Fnar%2Fgks1042"
+			},
+			"title": "Allen Brain Atlas: an integrated spatio-temporal portal for exploring the central nervous system",
+			"dates": [
+				{
+					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@type": "Date",
+					"type": {
+						"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@type": "Annotation",
+						"value":"Primary reference publication date"
+					},
+					"date": "2012-11-27 00:00:00"
+				}
+			],
+			"authors": [
+				{
+					"$schema": "https://w3id.org/dats/schema/person_schema.json",
+					"@type": "Person",
+				"name":"Susan M. Sunkin, Lydia Ng, Chris Lau, Tim Dolbeare, Terri L. Gilbert, Carol L. Thompson, Michael Hawrylycz, and Chinh Dang"
+				}
+			]
+		}
+	],
+	"isAbout": [
+		{
+			"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+			"@type": "BiologicalEntity",
+			"identifier": {
+		                "$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                		"@type": "Identifier",
+				"identifier": "9483",
+				"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9483"
+			},
+			"name":"Callithrix jacchus"
+		}
+	],
+	"dates": [
+		{
+			"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+			"@type": "Date",
+			"type": {
+				"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+				"@type": "Annotation",
+				"value":"CONP DATS JSON fileset creation date"
+			},
+			"date": "2019-09-06 13:54:24"
+		}
+	],
+	"keywords": [
+		{
+			"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+			"@type": "Annotation",
+			"value" : "transcriptomics"
+		}
+	],
+	"hasPart": [
+		{
+			"title":"Normalised LMD microarray expression values + probe and sample metadata",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "developmental transcriptome"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://blueprintnhpatlas.org/api/v2/well_known_file_download/298764404",
+				"description": "Zipped file archive"
+			}
+		},
+		{
+			"title":"Normalised macrodissection microarray expression values + probe and sample metadata",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "developmental transcriptome"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://blueprintnhpatlas.org/api/v2/well_known_file_download/298764384",
+				"description": "Zipped file archive"
+			}
+		},
+		{
+			"title":"Meta-information and URLs for downloading raw microarray files",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "developmental transcriptome"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://blueprintnhpatlas.org/microarray/well_data_files.xml",
+				"description": "xml file"
+			}
+		},
+		{
+			"title":"Neuroanatomical guides for prenatal LMD sample isolation",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "neuroanatomical images"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://download.alleninstitute.org/nhp/Prenatal_Macaque_LMD_Microarray/neuroanatomical_guides_for_LMD_sampling/",
+				"description": "Directory containing 144 .JPG files + 1 summary document"
+			}
+		},
+		{
+			"title":"Transcriptional architecture of the primate neocortex",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "neuroanatomical images"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://download.alleninstitute.org/nhp/Transcriptional_Architecture_of_the_Primate_Neocortex/",
+				"description": "Directory containing 226 .CEL files + 3 summary/metadata documents"
+			}
+		},
+		{
+			"title":"14349_MRI.zip",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "neuroanatomical images"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://blueprintnhpatlas.org/api/v2/well_known_file_download/147139113",
+				"description": "Zipped cerebral MRI images from adult (48 months) rhesus macaque, specimen 1"
+			}
+		},
+{
+			"title":"14447_MRI.zip",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "neuroanatomical images"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://blueprintnhpatlas.org/api/v2/well_known_file_download/147139119",
+				"description": "Zipped cerebral MRI images from adult (48 months) rhesus macaque, specimen 2"
+			}
+		},
+{
+			"title":"14868_MRI.zip",
+			"creators": [
+				{
+					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@type": "Organization",
+					"name": "The Allen Institute for Brain Science"
+				}
+			],
+			"types": [
+				{
+					"information": {
+						"value": "neuroanatomical images"
+					}
+				}
+			],
+			"storedIn": {
+				"name": "http://blueprintnhpatlas.org/api/v2/well_known_file_download/147139125",
+				"description": "Zipped cerebral MRI images from adult (48 months) rhesus macaque, specimen 3"
+			}
+		}
+	],
+	"extraProperties": [
+		{
+			"category": "contact",
+			"values": [
+				{
+					"value": "Jennifer Tremblay-Mercier, Research Co-ordinator, jennifer.tremblay-mercier@douglas.mcgill.ca, 514-761-6131 #3329"
+				}
+			]
+		}
+	]
+}
