@@ -1,33 +1,35 @@
 {
-	"@context": {
-		"sdo": "https://schema.org/",
-		"Dataset": "sdo:Dataset",
-		"title": {
-      			"@id": "sdo:name",
-      			"@type": "sdo:Text"
-    		},
-    		"description": {
-      			"@id": "sdo:description",
-      			"@type": "sdo:Text"
-    		},
-    		"distributions": {
-		      "@id": "sdo:distribution",
-		      "@type": "sdo:DataDownload"
-	 	},
-	    	"primaryPublications": "sdo:citation",
-    		"citations": "sdo:citation",
-	    	"producedBy": "sdo:producer",
-    		"creators": "sdo:creator",
-	    	"licenses": "sdo:license",
-    		"isAbout": "sdo:about",
-	    	"hasPart": "sdo:hasPart",
-    		"acknowledges": "sdo:funder",
-	    	"keywords": "sdo:keywords"
-	},
-    	"@type": "Dataset",
+	"@context": 
+		[ 
+			{
+				"sdo": "https://schema.org/",
+				"Dataset": "sdo:Dataset",
+				"title": {
+					"@id": "sdo:name",
+					"@type": "sdo:Text"
+				},
+				"description": {
+					"@id": "sdo:description",
+					"@type": "sdo:Text"
+				},
+				"distributions": {
+					"@id": "sdo:distribution",
+					"@type": "sdo:DataDownload"
+				},
+				"primaryPublications": "sdo:citation",
+				"citations": "sdo:citation",
+				"producedBy": "sdo:producer",
+				"creators": "sdo:creator",
+				"licenses": "sdo:license",
+				"isAbout": "sdo:about",
+				"hasPart": "sdo:hasPart",
+				"acknowledges": "sdo:funder",
+				"keywords": "sdo:keywords",
+				"dates": "sdo:date",
+				"storedIn": "sdo:url"
+			}
+		],
 	"identifier": {
-                "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
-                "@type": "Identifier",
 		"identifier": "https://doi.org/10.5281/zenodo.3405490",
 		"identifierSource": "DOI"
 	},
@@ -43,7 +45,7 @@
 	"creators": [
 		{
 			"@id": "https://w3id.org/dats/schema/organization_schema.json",
-			"@type": "Organization",
+			"@type": "creators",
 			"name": "The Allen Institute for Brain Science"
 		}
 	],
@@ -61,11 +63,7 @@
 	},
 	"primaryPublications" : [
 		{
-            		"@id": "https://w3id.org/dats/schema/publication_schema.json",
-            		"@type": "Publication",
 			"identifier": {
-		                "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
-                		"@type": "Identifier",
 				"identifier": "https://dx.doi.org/10.1093%2Fnar%2Fgks1042"
 			},
 			"title": "Allen Brain Atlas: an integrated spatio-temporal portal for exploring the central nervous system",
@@ -95,8 +93,6 @@
 			"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 			"@type": "BiologicalEntity",
 			"identifier": {
-		                "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
-                		"@type": "Identifier",
 				"identifier": "9483",
 				"identifierSource":"https://www.ncbi.nlm.nih.gov/taxonomy/9483"
 			},
@@ -128,7 +124,7 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
@@ -149,7 +145,7 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
@@ -170,7 +166,7 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
@@ -191,7 +187,7 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
@@ -212,7 +208,7 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
@@ -233,7 +229,7 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
@@ -254,7 +250,7 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
@@ -275,7 +271,7 @@
 			"creators": [
 				{
 					"@id": "https://w3id.org/dats/schema/organization_schema.json",
-					"@type": "Organization",
+					"@type": "creators",
 					"name": "The Allen Institute for Brain Science"
 				}
 			],
