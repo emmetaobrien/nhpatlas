@@ -65,6 +65,22 @@
 			"date": "2019-09-06 13:54:24"
 		}
 	],
+	"distributions": [
+	        {
+			"formats": [
+				".cel",
+				".jpg",
+				"DICOM"
+            		],
+			"size" : "7",
+		        "unit" : {
+            			"value": "GB"
+		        },
+			"access": {
+				"landingPage": "http://www.blueprintatlas.org/static/download/"
+			}
+		}
+	],
 	"keywords": [
 		{
 			"value" : "transcriptomics"
@@ -230,6 +246,22 @@
 			"values": [
 				{
 					"value": "Jennifer Tremblay-Mercier, Research Co-ordinator, jennifer.tremblay-mercier@douglas.mcgill.ca, 514-761-6131 #3329"
+				}
+			]
+		},
+		{
+			"category": "files",
+			"values": [
+				{
+					"value": "385"
+				}
+			]
+		},
+		{
+			"category": "logo",
+			"values": [
+				{
+					"value": "logo.png"
 				}
 			]
 		}
