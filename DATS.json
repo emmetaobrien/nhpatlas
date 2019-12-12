@@ -72,7 +72,7 @@
 				".jpg",
 				"DICOM"
             		],
-			"size" : "7",
+			"size" : 7,
 		        "unit" : {
             			"value": "GB"
 		        },
