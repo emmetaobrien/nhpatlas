@@ -250,6 +250,14 @@
 			]
 		},
 		{
+			"category": "CONP_status",
+			"values": [
+				{
+					"value": "external"
+				}
+			]
+		},
+		{
 			"category": "files",
 			"values": [
 				{
